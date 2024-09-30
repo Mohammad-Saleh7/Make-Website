@@ -3,129 +3,240 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body{
     background-color:#6e0707;
     height: 100vh;
 }
-@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
-.ul{
+header{
     display: flex;
-    list-style: none;
-    gap: 10px;
     justify-content: space-around;
-    margin-top: 39px;
-    padding-bottom: 50px;
-    font-weight: 200;
-    font-size: larger;
-    border-bottom: 1px solid black;
 }
-.header-logo{
-    width:80px;
-    position: absolute;
-    top: 12px;
-}
-.first-section{
+.navbar{
     display: flex;
-    gap: 10px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 40px;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid black ;
+}
+nav{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     
 }
-.first-article{
-    width: 250px;
-    height:290px;
-    border-radius: 10px;
-    position: relative;
 
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
-.second-article{
-    width: 250px;
-    height:290px;
-    border-radius: 10px;
-    position: relative;
-}
-.third-article{
-    width: 250px;
-    height:290px;
-    border-radius: 10px;
-    position: relative;
-}
-.fourth-article{
-    width: 250px;
-    height:290px;
-    border-radius: 10px;
-    position: relative;
-}
-.first-img{
-    width: 150px;
-    position: absolute;
-    margin-top: 23px;
-    left: 49px;
-}
-.fisrt-p{
-    position: absolute;
-    font-family: sans-serif;
-    bottom: 20px;
-    margin-left: 55px;
+nav ul li{
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: larger;
     font-weight: bolder;
-    font-family: "Spicy Rice", serif;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
 
+.navlogo{
+    width: 100px;
 }
-.second-img{
+li a{
+    text-decoration: none;
+     color:#6e0707;
+     font-family: "Indie Flower", cursive;
+}
+li a:hover{
+    color: white;
+    font-size: larger;
+}
+ul li:nth-child(4){
+    width: 130px;
+}
+ul li:nth-child(2):hover{
     width: 150px;
-    margin-top: 23px;
-    left: 49px;
-    position: absolute;
 }
-.second-p{
-    position: absolute;
-    font-family: sans-serif;
-    bottom: 8px;
-    margin-left: 45px;
-    font-weight: bolder;
-    font-family: "Spicy Rice", serif;
-}
-.third-img{
-    width: 180px;
-    margin-top: 23px;
-    left: 34px;
-    position: absolute;
-    height: 210px;
-}
-.third-p{
-    position: absolute;
-    font-family: sans-serif;
-    bottom: 12px;
-    margin-left: 30px;
-    font-weight: bolder;
-    font-family: "Spicy Rice", serif;
-}
-.fourth-img{
+ul li:nth-child(3):hover{
     width: 150px;
-    margin-top: 23px;
-    left: 49px;
-    height: 210px;
-    position: absolute;
 }
-.fourth-p{
-    position: absolute;
-    font-family: sans-serif;
-    bottom: 16px;
-    margin-left: 48px;
+ul li:nth-child(4):hover{
+    width: 150px;
+}
+ul li:nth-child(5):hover{
+    width: 150px;
+}
+ul li:nth-child(1):hover{
+    width: 150px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid black ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: larger;
     font-weight: bolder;
-    font-family: "Spicy Rice", serif;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
 }
+
+.navlogo{
+    width: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding: 0 30px;
+    font-family: "Indie Flower", cursive;
+}
+.box1{
+    width: 250px;
+    height:290px;
+}
+.box2{
+    width: 250px;
+    height:290px;
+}
+.box3{
+    width: 250px;
+    height:290px;
+}
+.box4{
+    width: 250px;
+    height:290px;
+}
+article{
+    background-color: black;
+    border: 2px solid #2d2c2c;
+    border-radius: 10px;
+}
+img{
+    width: 135px;
+}
+.f-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.f-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.s-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.s-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.t-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.t-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.fo-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fo-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.box1 img{
+    height: 190px;
+    margin-top: 10px;
+}
+.box2 img{
+    height: 190px;
+    margin-top: 10px;
+}
+.box3 img{
+    height: 190px;
+    margin-top: 10px;
+}
+.box4 img{
+    height: 190px;
+    margin-top: 10px;
+}
+article p{
+    color: #6e0707;
+    text-align: center;
+    font-weight: bolder;
+}
+
+td{
+    border: 2px solid black;
+    border-radius:2px;
+}
+
 table{
-    width: 1250px;
+    width: 800px;
     height: 180px;
     position: absolute;
+    right: 0px;
+    left: 0px;
     margin-top: 40px;
-    margin-left: 350px;
+    margin: 60px auto;    
     border: 2px solid black;
     border-radius: 8px;
 
 }
+
 td{
     border: 2px solid black;
     border-radius:2px;
@@ -133,15 +244,7 @@ td{
 .first-section article{
     background-color:#050101;
     color: #a01111;
-    border: 2px solid #2d2c2c;
-    
-    
-}
-article img{
-    width: 150px;
-    margin-top: 23px;
-    left: 49px;
-    position: absolute;
+    border: 2px solid #2d2c2c; 
 }
 ul li{
     background-color: black;
@@ -156,7 +259,6 @@ ul li{
 ul li a{
     color: #6e0707;
     text-decoration: none;
-    font-family: "Spicy Rice", serif;
 }
 ul li a:hover{
     color: white;
@@ -167,8 +269,10 @@ tr td:hover{
 }
 td{
     text-align: center;
+    font-family: "Indie Flower", cursive;
 }
 th{
     background-color: black;
     color: #6e0707;
+    font-family: "Indie Flower", cursive;
 }
