@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    height: 100vh;
+    background-color:#6e0707;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid black ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.navlogo{
+    margin-left: 11px;
+    margin-top: 11px;
+    width: 80px;
+}
+li a{
+    text-decoration: none;
+     color:#6e0707;
+     font-family: "Indie Flower", cursive;
+}
+li a:hover{
+    color: white;
+    font-size: larger;
+}
+ul li:nth-child(2):hover{
+    width: 150px;
+}
+ul li:nth-child(3):hover{
+    width: 150px;
+}
+ul li:nth-child(4):hover{
+    width: 150px;
+}
+ul li:nth-child(5):hover{
+    width: 150px;
+}
+ul li:nth-child(1):hover{
+    width: 150px;
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Indie Flower", cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding: 0 30px;
+    font-family: "Indie Flower", cursive;
+}
+.container2{
+   padding: 30px;
+}
+.br-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    font-size: large;
+    background-color: black;
+    color: #6e0707;
+}
+.box1{
+    width: 250px;
+    height:290px;
+    /* display: flex; */
+}
+.box2{
+    width: 250px;
+    height:290px;
+}
+.box3{
+    width: 250px;
+    height:290px;
+}
+article{
+    background-color: black;
+    border: 2px solid #2d2c2c;
+    border-radius: 10px;
+}
+img{
+    width: 135px;
+}
+.f-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.f-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.s-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.s-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.t-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.t-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+article p{
+    color: #6e0707;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+
+}
+.box1 img{
+    height: 190px;
+}
+.box2 img{
+    height: 190px;
+}
+.box3 img{
+    height: 190px;
+}
+ul li:nth-child(4){
+    width: 130px;
+}

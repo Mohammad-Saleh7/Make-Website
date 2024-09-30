@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    height: 100vh;
+    background-color:#6e0707;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid black ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;   
+}
+
+.navlogo{
+    margin-left: 11px;
+    margin-top: 11px;
+    width: 80px;
+}
+li a{
+    text-decoration: none;
+     color:#6e0707;
+     font-family: "Indie Flower", cursive;
+}
+li a:hover{
+    color: white;
+    font-size: larger;
+}
+ul li:nth-child(2):hover{
+    width: 150px;
+}
+ul li:nth-child(3):hover{
+    width: 150px;
+}
+ul li:nth-child(4):hover{
+    width: 150px;
+}
+ul li:nth-child(5):hover{
+    width: 150px;
+}
+ul li:nth-child(1):hover{
+    width: 150px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Indie Flower", cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* border-bottom: 2px solid black; */
+    padding-bottom: 20px;
+    padding: 0 30px;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+.box1{
+    width: 250px;
+    height:290px;
+    /* display: flex; */
+}
+.box2{
+    width: 250px;
+    height:290px;
+}
+.box3{
+    width: 250px;
+    height:290px;
+}
+.box4{
+    width: 250px;
+    height:290px;
+}
+.box5{
+    width: 250px;
+    height:290px;
+}
+.box6{
+    width: 250px;
+    height:290px;
+}
+.box7{
+    width: 250px;
+    height:290px;
+}
+.box8{
+    width: 250px;
+    height:290px;
+}
+.box9{
+    width: 250px;
+    height:290px;
+}
+.box10{
+    width: 250px;
+    height:290px;
+}
+.box11{
+    width: 250px;
+    height:290px;
+}
+article{
+    background-color: black;
+    border: 2px solid #2d2c2c;
+    border-radius: 10px;
+}
+img{
+    width: 135px;
+}
+.f-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.f-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.s-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.s-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.t-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.t-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.fo-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fo-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.fi-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fi-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.box1 img{
+    height: 190px;
+}
+.box2 img{
+    height: 190px;
+}
+.box3 img{
+    height: 190px;
+}
+.box4 img{
+    height: 190px;
+}
+.box5 img{
+    height: 190px;
+}
+.box6 img{
+    height: 190px;
+}
+.box7 img{
+    height: 190px;
+}
+.box8 img{
+    height: 190px;
+}
+.box9 img{
+    height: 190px;
+}
+.box10 img{
+    height: 190px;
+}
+.box11 img{
+    height: 190px;
+}
+article p{
+    color: #6e0707;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+
+}
+.s-section{
+    display: flex;
+    justify-content: center;
+
+
+}
+.footer-container{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 900px;
+    height: 620px;
+    background-color: black;
+    color: #6e0707;
+    font-family: "Indie Flower", cursive;
+    border-radius: 20px;
+    display: flex;
+}
+.heading-footer {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #6e0707;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.heading-footer h1{
+    font-family: "Indie Flower", cursive;
+}
+.p-footer{
+    margin-top: 30px;
+    padding: 10px;
+}
+ul li:nth-child(4){
+    width: 130px;
+}
