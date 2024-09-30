@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    height: 100vh;
+    background-color:#6e0707;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid black ;
+}
+nav{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    border-radius: 20px;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    
+}
+
+.navlogo{
+    width: 100px;
+    /* margin-right:300px ;  */
+    /* justify-content: flex-end; */
+
+}
+li a{
+    text-decoration: none;
+     color:#6e0707;
+     font-family: "Indie Flower", cursive;
+}
+li a:hover{
+    color: white;
+    font-size: larger;
+}
+ul li:nth-child(4){
+    width: 130px;
+}
+ul li:nth-child(2):hover{
+    width: 150px;
+}
+ul li:nth-child(3):hover{
+    width: 150px;
+}
+ul li:nth-child(4):hover{
+    width: 150px;
+}
+ul li:nth-child(5):hover{
+    width: 150px;
+}
+ul li:nth-child(1):hover{
+    width: 150px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Indie Flower", cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+.box1{
+    width: 250px;
+    height:290px;
+    /* display: flex; */
+}
+.box2{
+    width: 250px;
+    height:290px;
+}
+.box3{
+    width: 250px;
+    height:290px;
+}
+.box4{
+    width: 250px;
+    height:290px;
+}
+.box5{
+    width: 250px;
+    height:290px;
+}
+article{
+    background-color: black;
+    border: 2px solid #2d2c2c;
+    border-radius: 10px;
+}
+img{
+    width: 135px;
+}
+.f-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.f-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.s-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.s-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.t-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.t-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.fo-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fo-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.fi-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fi-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+article a{
+    color: #6e0707;
+    text-decoration: none;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+}
+article a:hover{
+    color: aliceblue;
+    font-size: larger;
+
+}
+.s-section{
+    display: flex;
+    justify-content: center;
+    margin: bottom 20px; 
+}
+.footer-container{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 800px;
+    height: 620px;
+    background-color: black;
+    color: #6e0707;
+    font-family: "Indie Flower", cursive;
+    border-radius: 20px;
+    padding: 10px;
+}
+.heading-footer{
+    display: flex;
+    justify-content: center;
+}
+.p-footer{
+    font-size: larger;
+}
+
+
